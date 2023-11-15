@@ -1,0 +1,50 @@
+
+*{
+    background-color:crimson;
+    color:pink;
+}
+
+h2{
+    background-color: pink;
+    color:crimson;
+}
+h3{
+    color:aliceblue;
+    font-size:35px;
+    
+}
+span{
+    color:white;
+}
+
+
+
+
+
+
+/* about section*/
+.about  {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+
+    max-width: 1200px;
+    
+
+    
+}
+.about .section-tittle{
+    font-weight: 100;
+    color: black;
+
+
+}
+.about .img-about::after{
+    position:relative;
+    border:10px solid snow;
+    height: 100%;
+    width: 50%;  
+
+}
+
+
+
